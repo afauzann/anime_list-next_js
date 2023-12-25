@@ -1,5 +1,6 @@
 import Link from "next/link";
 import InputSearch from "./InputSearch";
+import UserActionButton from "./UserActionButton";
 
 export default function Navbar() {
   return (
@@ -9,6 +10,7 @@ export default function Navbar() {
           Anime List
         </Link>
         <InputSearch />
+        <UserActionButton/>
       </div>
     </header>
   );
